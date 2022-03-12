@@ -318,6 +318,12 @@ NavBar
         display: flex;
         align-items: center;
     }
+    .nav-link {
+        padding: 0;
+        border-top: none;
+        margin-right: 1rem;
+        font-size: 1rem;
+    }
     .nav-header {
         padding: 0;
         height: auto;
@@ -328,12 +334,6 @@ NavBar
         flex-direction: row;
         align-items: center;
         width: 100%;
-    }
-    .nav-link {
-        padding: 0;
-        border-top: none;
-        margin-right: 1rem;
-        font-size: 1rem;
     }
 }
 
