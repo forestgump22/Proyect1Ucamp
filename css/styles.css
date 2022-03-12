@@ -319,21 +319,21 @@ NavBar
         align-items: center;
     }
     .nav-link {
-        padding: 0;
-        border-top: none;
         margin-right: 1rem;
         font-size: 1rem;
+        padding: 0;
+        border-top: none;
     }
     .nav-header {
+        margin-right: 2rem;
         padding: 0;
         height: auto;
-        margin-right: 2rem;
     }
     .nav-links {
-        height: auto !important;
-        flex-direction: row;
+        height: auto;
         align-items: center;
         width: 100%;
+        flex-direction: row;
     }
 }
 
